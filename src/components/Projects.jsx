@@ -22,7 +22,9 @@ function Projects() {
             responsive design.
           </p>
 
-          <button>View Project</button>
+          <a href="https://codebyemmanuel19.github.io/aurea/">
+            <button>View Project</button>
+          </a>
         </div>
 
       </div>
@@ -40,7 +42,9 @@ function Projects() {
             and professional layout.
           </p>
 
-          <button>View Project</button>
+          <a href="https://codebyemmanuel19.github.io/trading/">
+            <button>View Project</button>
+          </a>
         </div>
 
       </div>
