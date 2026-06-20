@@ -8,11 +8,9 @@ function Home(){
           <h2>Based in Nigeria.</h2>
 
           <p>
-            Passionate about creating clean, modern,
-            and user friendly websites. Web design
-            should be creative, fast, and impactful.
-            Currently deepening skills in JavaScript React
-            and building real world projects every day.
+            Building modern websites and expanding
+            my digital marketing skills to help businesses
+            grow online.
           </p>
 
           <a href="#projects">
