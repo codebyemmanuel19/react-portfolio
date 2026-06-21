@@ -35,7 +35,7 @@ function About() {
 
             <br /><br />
 
-            Originally from Bayelsa and currently based in Lagos,
+            Originally from Bayelsa and currently based in Port Harcourt,
             Nigeria, I'm constantly learning, building projects, and
             improving my skills to deliver real value through
             technology.

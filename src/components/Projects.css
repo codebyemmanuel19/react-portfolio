@@ -77,9 +77,7 @@
 
 @media(min-width: 768px){
 
-    .projects-grid{
-        grid-template-columns: repeat(2, 1fr);
-    }
+    
 
     .project-card img{
         height: 350px;

@@ -63,10 +63,26 @@
 }
 
 .home-buttons{
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 16px;
-  flex-wrap: wrap;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.home-buttons a{
+  display: block;
+  text-decoration: none;
+}
+
+.btn-primary,
+.btn-secondary{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 50px;
 }
 
 .btn-primary{
@@ -101,4 +117,12 @@
 .btn-secondary:hover{
   transform: translateY(-3px);
   background: rgba(30, 58, 138, 0.08);
+}
+
+@media(max-width: 400px){
+  .btn-primary,
+  .btn-secondary{
+    padding: 12px 16px;
+    font-size: 0.9rem;
+  }
 }
