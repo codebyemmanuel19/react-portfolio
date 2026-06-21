@@ -1,4 +1,5 @@
 import "./Contact.css"
+import { Mail, Phone } from "lucide-react"
 
 function Contact() {
   return (
@@ -12,25 +13,25 @@ function Contact() {
 
       <div className="contact-info">
 
-        <a href="mailto:emmanuelkenneth063@gmail.com">
-          📧 emmanuelkenneth063@gmail.com
+        <a href="mailto:emmanuelkenneth063@gmail.com" aria-label="Email Emmanuel">
+          <Mail size={18} /> emmanuelkenneth063@gmail.com
         </a>
 
-        <a href="tel:+2349165374015">
-          📱 +234 9165374015
+        <a href="tel:+2349165374015" aria-label="Call Emmanuel">
+          <Phone size={18} /> +234 9165374015
         </a>
 
       </div>
 
       <div className="social-links">
 
-        <a href="">TikTok</a>
+        <a href="https://www.tiktok.com/@codebyemmal?_r=1&_t=ZN-97OPwmPBuCM" target="_blank" rel="noopener noreferrer">TikTok</a>
 
-        <a href="">Facebook</a>
+        <a href="https://www.facebook.com/share/1DYRdrXXmB/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a>
 
-        <a href="">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 
-        <a href="">YouTube</a>
+        <a href="https://www.youtube.com/@codebyemmanuel" target="_blank" rel="noopener noreferrer">YouTube</a>
 
       </div>
 

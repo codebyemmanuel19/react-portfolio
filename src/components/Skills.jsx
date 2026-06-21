@@ -11,7 +11,7 @@ import {
 function Skill() {
   return (
     <section className="skill" id="skill">
-      <h1 data-aos="fade-up">Our Tech Skills</h1>
+      <h1 data-aos="fade-up">My Tech Skills</h1>
 
       <div className="skills-container">
 
