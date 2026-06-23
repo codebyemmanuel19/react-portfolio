@@ -4,6 +4,8 @@ import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
+import Services from "./components/Services"
+
 
 import AOS from "aos"
 import "aos/dist/aos.css"
