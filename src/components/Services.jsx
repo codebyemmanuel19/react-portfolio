@@ -7,11 +7,11 @@ const services = [
    title: "Web Development",
    description: "Building modern, responsive websites tailored to your business needs."
  },
- {
-   icon: <Megaphone size={32} />,
-   title: "Paid Ad Management",
-   description: "Running targeted TikTok and Meta ad campaigns to help you reach the right audience."
- },
+ //{
+   //icon: <Megaphone size={32} />,
+   //title: "Paid Ad Management",
+   //description: "Running targeted TikTok and Meta ad campaigns to help you reach the right audience."
+ //},
  {
    icon: <Search size={32} />,
    title: "SEO Optimization",
