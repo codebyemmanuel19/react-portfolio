@@ -1,7 +1,7 @@
 import "./Projects.css"
 import aurea from "../assets/aurea.jpeg"
 import trading from "../assets/trading.png"
-import agency from "../assets/cbe-agency.png" // make sure this filename matches exactly in your assets folder
+import agency from "../assets/cbe-agency.png" 
 
 const projects = [
   {
