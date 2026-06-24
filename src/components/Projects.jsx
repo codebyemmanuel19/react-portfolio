@@ -1,12 +1,15 @@
 import "./Projects.css"
 import aurea from "../assets/aurea.jpeg"
 import trading from "../assets/trading.png"
-
-// Add a new project by copying one of these objects and changing the values.
-// image: import it at the top like aurea and trading above.
-// link: the live URL of your project.
+import agency from "../assets/cbe-agency.png" // make sure this filename matches exactly in your assets folder
 
 const projects = [
+  {
+    title: "Agency Website",
+    image: agency,
+    description: "A modern agency website built with a clean and professional layout.",
+    link: "https://codebyemmanuel19.github.io/cbe-agency/"
+  },
   {
     title: "Aurea Fashion",
     image: aurea,
@@ -18,8 +21,7 @@ const projects = [
     image: trading,
     description: "A trading website designed with a modern and professional layout.",
     link: "https://codebyemmanuel19.github.io/trading/"
-  },
-  
+  }
   // To add a new project, paste a new object here like this:
   // {
   //   title: "Your Project Name",
