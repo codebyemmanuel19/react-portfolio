@@ -6,10 +6,10 @@ import agency from "../assets/cbe-agency.png"
 const projects = [
   
   {
-    title: "Aurea Fashion",
-    image: aurea,
-    description: "A modern fashion website with a clean and responsive design.",
-    link: "https://codebyemmanuel19.github.io/aurea/"
+    title: "Trading Website",
+    image: trading,
+    description: "A trading website designed with a modern and professional layout.",
+    link: "https://codebyemmanuel19.github.io/trading/"
   },
 
   {
@@ -18,13 +18,16 @@ const projects = [
     description: "A modern agency website built with a clean and professional layout.",
     link: "https://cbe-agency.vercel.app/"
   },
-  
+
   {
-    title: "Trading Website",
-    image: trading,
-    description: "A trading website designed with a modern and professional layout.",
-    link: "https://codebyemmanuel19.github.io/trading/"
-  }
+    title: "Aurea Fashion",
+    image: aurea,
+    description: "A modern fashion website with a clean and responsive design.",
+    link: "https://codebyemmanuel19.github.io/aurea/"
+  },
+
+
+  
   // To add a new project, paste a new object here like this:
   // {
   //   title: "Your Project Name",
