@@ -4,18 +4,21 @@ import trading from "../assets/trading.png"
 import agency from "../assets/cbe-agency.png" 
 
 const projects = [
-  {
-    title: "Agency Website",
-    image: agency,
-    description: "A modern agency website built with a clean and professional layout.",
-    link: "https://codebyemmanuel19.github.io/cbe-agency/"
-  },
+  
   {
     title: "Aurea Fashion",
     image: aurea,
     description: "A modern fashion website with a clean and responsive design.",
     link: "https://codebyemmanuel19.github.io/aurea/"
   },
+
+  {
+    title: "Agency Website",
+    image: agency,
+    description: "A modern agency website built with a clean and professional layout.",
+    link: "https://cbe-agency.vercel.app/"
+  },
+  
   {
     title: "Trading Website",
     image: trading,
