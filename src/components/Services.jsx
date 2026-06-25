@@ -12,16 +12,16 @@ const services = [
    //title: "Paid Ad Management",
    //description: "Running targeted TikTok and Meta ad campaigns to help you reach the right audience."
  //},
- {
-   icon: <Search size={32} />,
-   title: "SEO Optimization",
-   description: "Helping your website get found by the right people on search engines."
- },
- {
-   icon: <BarChart2 size={32} />,
-   title: "Website Analytics Setup",
-   description: "Setting up GA4 so you can track who visits your site, where they come from, and what's working."
- }
+ //{
+   //icon: <Search size={32} />,
+   //title: "SEO Optimization",
+  // description: "Helping your website get found by the right people on search engines."
+ //},
+ //{
+   //icon: <BarChart2 size={32} />,
+   //title: "Website Analytics Setup",
+   //description: "Setting up GA4 so you can track who visits your site, where they come from, and what's working."
+ //}
 ]
 
 function Services() {
