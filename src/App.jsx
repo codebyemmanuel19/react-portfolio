@@ -23,7 +23,7 @@ function App() {
     <>
       <Navbar />
       <Home />
-      
+      <Services />
       <Projects />
       <Skills />
       <About />

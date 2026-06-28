@@ -2,26 +2,31 @@ import "./Services.css"
 import { Code2, Megaphone, Search, BarChart2 } from "lucide-react"
 
 const services = [
- {
-   icon: <Code2 size={32} />,
-   title: "Web Development",
-   description: "Building modern, responsive websites tailored to your business needs."
- },
- //{
-   //icon: <Megaphone size={32} />,
-   //title: "Paid Ad Management",
-   //description: "Running targeted TikTok and Meta ad campaigns to help you reach the right audience."
- //},
- //{
-   //icon: <Search size={32} />,
-   //title: "SEO Optimization",
-  // description: "Helping your website get found by the right people on search engines."
- //},
- //{
-   //icon: <BarChart2 size={32} />,
-   //title: "Website Analytics Setup",
-   //description: "Setting up GA4 so you can track who visits your site, where they come from, and what's working."
- //}
+  {
+    icon: <Code2 size={32} />,
+    title: "Website Development",
+    description:
+      "Building modern, responsive, and high-performing websites tailored to your business needs."
+  },
+  {
+    icon: <Megaphone size={32} />,
+    title: "Meta & TikTok Ads",
+    description:
+      "Creating and managing targeted Meta and TikTok advertising campaigns to help you reach the right audience."
+  },
+  {
+    icon: <Search size={32} />,
+    title: "SEO & Search Console",
+    description:
+      "Optimizing your website for search engines and setting up Google Search Console to monitor performance."
+  },
+  {
+    icon: <BarChart2 size={32} />,
+    title: "Analytics & Tracking",
+    description:
+      "Setting up Google Analytics 4 and Meta Pixel so you can measure traffic, user behavior, and marketing performance."
+  }
+
 ]
 
 function Services() {
