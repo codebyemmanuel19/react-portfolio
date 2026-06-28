@@ -1,5 +1,4 @@
 import "./Navbar.css"
-import logo from "../assets/logo.jpeg"
 import { HiMenu, HiX } from "react-icons/hi"
 import { useState } from "react"
 
@@ -9,8 +8,15 @@ function Navbar() {
   return (
     <nav>
       <div className="logo">
-        <img src={logo} alt="CBE Logo" />
-        <h1>CodeByEmmanuel</h1>
+        <div className="logo-icon">
+          <span className="logo-bracket">&lt;</span>
+          <span className="logo-text">CBE</span>
+          <span className="logo-bracket">/&gt;</span>
+        </div>
+        <div className="logo-words">
+          <span className="logo-name">CodeBy</span>
+          <span className="logo-name2">Emmanuel</span>
+        </div>
       </div>
 
       <ul className={isOpen ? "nav-links active" : "nav-links"}>
