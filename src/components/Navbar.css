@@ -18,11 +18,11 @@ nav {
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: px;
 }
 
 .logo img {
-  width: 50px;
+  width: 65px;
   height: auto;
 }
 
@@ -69,7 +69,7 @@ nav {
 @media (max-width: 768px) {
 
   .logo img {
-    width: 40px;
+    width: 80px;
   }
 
   .logo h1 {
