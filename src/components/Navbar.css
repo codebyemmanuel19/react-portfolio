@@ -15,6 +15,14 @@ nav {
  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-y: auto !important;
+}
+
 /* LOGO */
 
 .logo {
