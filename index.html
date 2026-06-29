@@ -3,16 +3,6 @@
 
 <head>
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-08G2V5RT6F"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-08G2V5RT6F');
-  </script>
-
   <meta charset="UTF-8" />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -29,33 +19,85 @@
     content="H4Ysn7Ax7yrgKQwslvvn6VA3BL_n7uF85ulC8MO2EhI"
   />
 
-  <title>Web Developer in Port Harcourt, Nigeria | CodebyEmmanuel</title>
+  <title>Web Developer in Port Harcourt, Nigeria | CodeByEmmanuel</title>
 
-  <!-- Meta Pixel Code -->
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-08G2V5RT6F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-08G2V5RT6F');
+  </script>
+
+  <!-- TikTok Pixel -->
+  <script>
+    !function (w, d, t) {
+      w.TiktokAnalyticsObject = t;
+      var ttq = w[t] = w[t] || [];
+      ttq.methods = ["page", "track", "identify", "instances", "debug", "on", "off", "once", "ready", "alias", "group", "enableCookie", "disableCookie", "holdConsent", "revokeConsent", "grantConsent"];
+      ttq.setAndDefer = function (t, e) {
+        t[e] = function () {
+          t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+        };
+      };
+      for (var i = 0; i < ttq.methods.length; i++) {
+        ttq.setAndDefer(ttq, ttq.methods[i]);
+      }
+      ttq.instance = function (t) {
+        var e = ttq._i[t] || [];
+        for (var n = 0; n < ttq.methods.length; n++) {
+          ttq.setAndDefer(e, ttq.methods[n]);
+        }
+        return e;
+      };
+      ttq.load = function (e, n) {
+        var r = "https://analytics.tiktok.com/i18n/pixel/events.js";
+        ttq._i = ttq._i || {};
+        ttq._i[e] = [];
+        ttq._i[e]._u = r;
+        ttq._t = ttq._t || {};
+        ttq._t[e] = +new Date;
+        ttq._o = ttq._o || {};
+        ttq._o[e] = n || {};
+        n = document.createElement("script");
+        n.type = "text/javascript";
+        n.async = true;
+        n.src = r + "?sdkid=" + e + "&lib=" + t;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(n, s);
+      };
+
+      ttq.load('D913UO3C77UARCKAS790');
+      ttq.page();
+    }(window, document, 'ttq');
+  </script>
+
+  <!-- Meta Pixel -->
   <script>
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return;
       n = f.fbq = function () {
         n.callMethod ?
-          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments);
       };
       if (!f._fbq) f._fbq = n;
       n.push = n;
-      n.loaded = !0;
+      n.loaded = true;
       n.version = '2.0';
       n.queue = [];
       t = b.createElement(e);
-      t.async = !0;
+      t.async = true;
       t.src = v;
       s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s)
+      s.parentNode.insertBefore(t, s);
     }(window, document, 'script',
       'https://connect.facebook.net/en_US/fbevents.js');
 
     fbq('init', '1736497447509302');
     fbq('track', 'PageView');
   </script>
-  <!-- End Meta Pixel Code -->
 
 </head>
 
