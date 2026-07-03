@@ -75,12 +75,18 @@
 
 /* Desktop */
 
-@media(min-width: 768px){
 
-    
 
-    .project-card img{
-        height: 350px;
-        object-fit: cover;
+.projects-grid{
+    display: grid;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Desktop */
+@media (min-width: 768px){
+    .projects-grid{
+        grid-template-columns: repeat(3, 1fr);
     }
 }

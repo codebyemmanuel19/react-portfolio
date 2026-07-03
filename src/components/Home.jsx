@@ -10,13 +10,13 @@ function Home(){
           Available for freelance work
         </span>
 
-        <h1>React Developer</h1>
+        <h1>Web Developer & Digital Marketing Specialist</h1>
         <h2>Based in Nigeria.</h2>
 
         <p>
-          Building modern websites and expanding
-          my digital marketing skills to help businesses
-          grow online.
+          I build fast, modern websites and run 
+          digital marketing campaigns that help 
+          businesses attract more customers online.
         </p>
 
         <div className="home-buttons">
