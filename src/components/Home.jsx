@@ -10,7 +10,7 @@ function Home(){
           Available for freelance work
         </span>
 
-        <h1>Web Developer & Digital Marketing Specialist</h1>
+        <h1>Web Developer | TikTok & Meta Ads Specialist</h1>
         <h2>Based in Nigeria.</h2>
 
         <p>
