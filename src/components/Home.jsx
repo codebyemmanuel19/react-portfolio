@@ -24,7 +24,7 @@ function Home(){
             <button className="btn-primary">View My Projects</button>
           </a>
 
-          <a href="https://wa.me/2349165374015">
+          <a href="https://wa.me/2349027090880">
             <button className="btn-secondary">Contact Me</button>
           </a>
         </div>
