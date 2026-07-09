@@ -29,9 +29,9 @@ function Contact() {
 
         <a href="https://www.facebook.com/share/1DYRdrXXmB/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a>
 
-        <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/codeby-emmanuel-b1b573303?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 
-        <a href="https://www.youtube.com/@codebyemmanuel" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a href="https://youtube.com/@codebyemmanuel?si=Is6hxtAtBCLecRu3" target="_blank" rel="noopener noreferrer">YouTube</a>
 
       </div>
 
