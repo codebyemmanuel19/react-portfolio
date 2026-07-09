@@ -6,6 +6,7 @@ import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import Services from "./components/Services"
 import Footer from "./components/Footer"
+import WhatsAppButton from "./components/WhatsApp"
 
 import AOS from "aos"
 import "aos/dist/aos.css"
@@ -29,6 +30,7 @@ function App() {
       <About />
       <Contact />
       <Footer />
+      <WhatsAppButton/>
     </>
   )
 }
