@@ -79,7 +79,15 @@ function Contact() {
 
       </div>
 
-      
+      <a
+        href="https://wa.me/2349027090880"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="contact-btn"
+      >
+        Contact Me
+      </a>
+
     </section>
   );
 }
