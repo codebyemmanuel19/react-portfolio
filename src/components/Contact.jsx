@@ -1,5 +1,12 @@
-import "./Contact.css"
-import { Mail, Phone } from "lucide-react"
+import "./Contact.css";
+import { Mail, Phone } from "lucide-react";
+import {
+  FaTiktok,
+  FaFacebook,
+  FaLinkedin,
+  FaYoutube,
+  FaGithub,
+} from "react-icons/fa";
 
 function Contact() {
   return (
@@ -25,27 +32,56 @@ function Contact() {
 
       <div className="social-links">
 
-        <a href="https://www.tiktok.com/@codebyemmal?_r=1&_t=ZN-97OPwmPBuCM" target="_blank" rel="noopener noreferrer">TikTok</a>
+        <a
+          href="https://www.tiktok.com/@codebyemmal?_r=1&_t=ZN-97OPwmPBuCM"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="TikTok"
+        >
+          <FaTiktok />
+        </a>
 
-        <a href="https://www.facebook.com/share/1CT6K35DSd/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a
+          href="https://www.facebook.com/share/1CT6K35DSd/?mibextid=wwXIfr"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook"
+        >
+          <FaFacebook />
+        </a>
 
-        <a href="https://www.linkedin.com/in/codeby-emmanuel-b1b573303?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a
+          href="https://www.linkedin.com/in/codeby-emmanuel-b1b573303?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
+          <FaLinkedin />
+        </a>
 
-        <a href="https://youtube.com/@codebyemmanuel?si=Is6hxtAtBCLecRu3" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a
+          href="https://youtube.com/@codebyemmanuel?si=Is6hxtAtBCLecRu3"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="YouTube"
+        >
+          <FaYoutube />
+        </a>
+
+        <a
+          href="https://github.com/codebyemmanuel19"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
+          <FaGithub />
+        </a>
 
       </div>
 
-      <a
-        href="https://wa.me/2349165374015"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="contact-btn"
-      >
-        Contact Me
-      </a>
-
+      
     </section>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
