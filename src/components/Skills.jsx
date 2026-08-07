@@ -6,7 +6,9 @@ import {
   FaReact,
   FaGitAlt,
   FaGithub,
+  FaPython,
 } from "react-icons/fa"
+import { SiDjango, SiPostgresql, SiVercel } from "react-icons/si"
 
 function Skill() {
   return (
@@ -33,6 +35,26 @@ function Skill() {
         <div className="skill-card" data-aos="zoom-in">
           <FaReact size={60} color="#61DAFB" />
           <p>React</p>
+        </div>
+
+        <div className="skill-card" data-aos="zoom-in">
+          <FaPython size={60} color="#3776AB" />
+          <p>Python</p>
+        </div>
+
+        <div className="skill-card" data-aos="zoom-in">
+          <SiDjango size={60} color="#092E20" />
+          <p>Django</p>
+        </div>
+
+        <div className="skill-card" data-aos="zoom-in">
+          <SiPostgresql size={60} color="#4169E1" />
+          <p>SQL</p>
+        </div>
+
+        <div className="skill-card" data-aos="zoom-in">
+          <SiVercel size={60} color="#000000" />
+          <p>Vercel</p>
         </div>
 
         <div className="skill-card" data-aos="zoom-in">
