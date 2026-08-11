@@ -39,9 +39,14 @@
   color: #555;
 }
 
+.about-buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 25px;
+}
+
 .contact-btn{
   display: inline-block;
-  margin-top: 25px;
   padding: 14px 30px;
   background: #3B82F6;
   color: white;
@@ -52,6 +57,22 @@
 
 .contact-btn:hover{
   background: #2563EB;
+  transform: translateY(-3px);
+}
+
+.secondary-btn{
+  display: inline-block;
+  padding: 14px 30px;
+  background: transparent;
+  border: 2px solid #1E3A8A;
+  color: #1E3A8A;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.secondary-btn:hover{
+  background: rgba(30, 58, 138, 0.08);
   transform: translateY(-3px);
 }
 
@@ -78,5 +99,10 @@
 
   .about-text p {
     font-size: 1rem;
+  }
+
+  .about-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }

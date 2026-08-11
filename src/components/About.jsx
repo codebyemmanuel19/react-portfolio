@@ -23,32 +23,40 @@ function About() {
           data-aos="fade-left"
         >
           <p>
-            I'm Emmanuel, a React Developer and Digital Marketer
-            passionate about building modern websites and helping
-            businesses grow online.
+            I'm Emmanuel a React developer and digital marketer
+            helping businesses build fast, modern websites that
+            actually bring in customers.
 
             <br /><br />
 
-            I started my coding journey in 2024 and have since focused
-            on creating clean, responsive, and user-friendly web
-            experiences.
+            I focus on clean, responsive, user-friendly builds,
+            backed by digital marketing know-how, so your site
+            doesn't just look good it gets seen.
 
             <br /><br />
 
-            Originally from Bayelsa and currently based in Port Harcourt,
-            Nigeria, I'm constantly learning, building projects, and
-            improving my skills to deliver real value through
-            technology.
+            Based in Port Harcourt, Nigeria, working with clients
+            across Africa and the UK. Always learning, always
+            shipping.
           </p>
 
-          <a
-          href="https://wa.me/2349027090880"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="contact-btn"
-          >
-         Contact Me
-         </a>
+          <div className="about-buttons">
+            <a
+              href="https://wa.me/2349027090880"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-btn"
+            >
+              Contact Me
+            </a>
+
+            <a
+              href="#projects"
+              className="secondary-btn"
+            >
+              See My Work
+            </a>
+          </div>
         </div>
 
       </div>
