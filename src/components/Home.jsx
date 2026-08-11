@@ -10,22 +10,28 @@ function Home(){
           Available for freelance work
         </span>
 
-        <h1>Web Developer | TikTok & Meta Ads Specialist</h1>
-        <h2>Based in Nigeria.</h2>
+        <h1>I Build Websites That Turn Visitors Into Customers</h1>
+        <h2>Web Development & Meta/TikTok Ads Specialist</h2>
 
         <p>
-          I build fast, modern websites and run 
-          digital marketing campaigns that help 
-          businesses attract more customers online.
+          Fast, modern, mobile-ready websites — built and launched 
+          in days, not weeks. I also run the ad campaigns that 
+          bring people to your site.
         </p>
 
+        <div className="trust-signals">
+          <span>⚡ 2s avg load time</span>
+          <span>🌍 Clients across Africa & UK</span>
+          <span>💬 Fast response on WhatsApp</span>
+        </div>
+
         <div className="home-buttons">
-          <a href="#projects">
-            <button className="btn-primary">View My Projects</button>
+          <a href="https://wa.me/2349027090880">
+            <button className="btn-primary">Get a Free Quote</button>
           </a>
 
-          <a href="https://wa.me/2349027090880">
-            <button className="btn-secondary">Contact Me</button>
+          <a href="#projects">
+            <button className="btn-secondary">View My Projects</button>
           </a>
         </div>
 
