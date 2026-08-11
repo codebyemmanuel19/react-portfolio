@@ -1,5 +1,5 @@
 import "./About.css"
-import Me from "../assets/Me.jpeg"
+import Me from "../assets/cde.jpeg"
 
 function About() {
   return (
