@@ -23,22 +23,41 @@
   font-size: 1.1rem;
 }
 
+.contact-btn {
+  display: inline-block;
+  padding: 15px 35px;
+  background: #3B82F6;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-bottom: 35px;
+}
+
+.contact-btn:hover {
+  background: #2563EB;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.35);
+}
+
 .contact-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 12px;
   margin-bottom: 35px;
 }
 
 .contact-info a {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   text-decoration: none;
-  color: #333;
-  font-weight: 600;
-  font-size: 1rem;
+  color: #666;
+  font-weight: 500;
+  font-size: 0.9rem;
   transition: 0.3s;
 }
 
@@ -51,7 +70,6 @@
   justify-content: center;
   align-items: center;
   gap: 25px;
-  margin-bottom: 35px;
   flex-wrap: wrap;
 }
 
@@ -76,24 +94,6 @@
   transform: translateY(-5px) scale(1.1);
 }
 
-.contact-btn {
-  display: inline-block;
-  padding: 15px 35px;
-  background: #3B82F6;
-  color: white;
-  text-decoration: none;
-  border-radius: 10px;
-  font-size: 1rem;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.contact-btn:hover {
-  background: #2563EB;
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.35);
-}
-
 /* ===========================
    Responsive Design
 =========================== */
@@ -111,8 +111,13 @@
     font-size: 1rem;
   }
 
+  .contact-btn {
+    width: 100%;
+    max-width: 280px;
+  }
+
   .contact-info a {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
   }
 
   .social-links {
@@ -123,10 +128,5 @@
     width: 50px;
     height: 50px;
     font-size: 22px;
-  }
-
-  .contact-btn {
-    width: 100%;
-    max-width: 280px;
   }
 }
