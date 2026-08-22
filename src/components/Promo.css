@@ -1,0 +1,28 @@
+.promotion {
+  padding: 60px 20px;
+}
+
+.promotion h2 {
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.promotion p {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 1rem;
+}
+
+.new-price {
+  color: #3B82F6;
+  font-weight: 700;
+  font-size: 1.4rem;
+}

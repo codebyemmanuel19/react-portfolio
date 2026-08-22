@@ -7,6 +7,7 @@ import Skills from "./components/Skills"
 import Services from "./components/Services"
 import Footer from "./components/Footer"
 import WhatsAppButton from "./components/WhatsApp"
+import Promo from "./components/Promo"
 
 import AOS from "aos"
 import "aos/dist/aos.css"
@@ -24,6 +25,7 @@ function App() {
     <>
       <Navbar />
       <Home />
+      <Promo />
       <Services />
       <Projects />
       <Skills />

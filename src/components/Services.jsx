@@ -14,18 +14,18 @@ const services = [
     description:
       "Creating and managing targeted Meta and TikTok advertising campaigns to help you reach the right audience."
   },
-  {
-    icon: <Search size={32} />,
-    title: "SEO & Search Console",
-    description:
-      "Optimizing your website for search engines and setting up Google Search Console to monitor performance."
-  },
-  {
-    icon: <BarChart2 size={32} />,
-    title: "Analytics & Tracking",
-    description:
-      "Setting up Google Analytics 4 and Meta Pixel so you can measure traffic, user behavior, and marketing performance."
-  }
+  //{
+    //icon: <Search size={32} />,
+    //title: "SEO & Search Console",
+    //description:
+      //"Optimizing your website for search engines and setting up Google Search Console to monitor performance."
+  //},
+  //{
+    //icon: <BarChart2 size={32} />,
+    //title: "Analytics & Tracking",
+    //description:
+      //"Setting up Google Analytics 4 and Meta Pixel so you can measure traffic, user behavior, and marketing performance."
+  //}
 
 ]
 
