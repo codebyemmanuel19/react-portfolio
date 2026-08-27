@@ -6,7 +6,7 @@ const services = [
     icon: <Code2 size={32} />,
     title: "Website Development",
     description:
-      "Building modern, responsive, and high-performing websites tailored to your business needs."
+      "Building high-quality, responsive websites, and high-performing websites for your business — you will love it.”"
   },
   {
     icon: <Megaphone size={32} />,
