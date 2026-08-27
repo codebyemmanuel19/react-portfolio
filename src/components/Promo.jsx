@@ -1,4 +1,5 @@
 import "./Promo.css";
+import promoVideo from "../assets/IMG_5263.MP4";
 
 const Promo = () => {
   return (
@@ -11,6 +12,16 @@ const Promo = () => {
         mobile-responsive website built for your business. Limited slots this
         month.
       </p>
+
+      <div className="promo-video-wrapper">
+        <video
+          className="promo-video"
+          src={promoVideo}
+          controls
+          muted
+          playsInline
+        />
+      </div>
     </div>
   );
 };
