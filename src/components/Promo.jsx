@@ -17,9 +17,11 @@ const Promo = () => {
         <video
           className="promo-video"
           src={promoVideo}
+          poster={videoThumbnail}
           controls
           muted
           playsInline
+          preload="metadata"
         />
       </div>
     </div>
