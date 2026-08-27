@@ -1,6 +1,7 @@
 import "./Promo.css";
 import promoVideo from "../assets/IMG_5263.MP4";
 
+
 const Promo = () => {
   return (
     <div className="promotion">
@@ -17,7 +18,7 @@ const Promo = () => {
         <video
           className="promo-video"
           src={promoVideo}
-          poster={videoThumbnail}
+          
           controls
           muted
           playsInline
