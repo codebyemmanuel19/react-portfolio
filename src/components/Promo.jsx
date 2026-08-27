@@ -18,7 +18,6 @@ const Promo = () => {
         <video
           className="promo-video"
           src={promoVideo}
-          
           controls
           muted
           playsInline
