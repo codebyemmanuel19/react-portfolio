@@ -19,7 +19,7 @@ const Promo = () => {
           className="promo-video"
           src={promoVideo}
           controls
-          muted
+          
           playsInline
           preload="metadata"
         />
