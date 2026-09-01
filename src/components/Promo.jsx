@@ -1,8 +1,18 @@
+import { useRef, useState } from "react";
 import "./Promo.css";
 import promoVideo from "../assets/codebyemma.mp4";
 
-
 const Promo = () => {
+  const videoRef = useRef(null);
+  const [muted, setMuted] = useState(true);
+
+  const toggleMute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = !videoRef.current.muted;
+      setMuted(videoRef.current.muted);
+    }
+  };
+
   return (
     <div className="promotion">
       <h2>Website Development Promo</h2>
@@ -16,13 +26,18 @@ const Promo = () => {
 
       <div className="promo-video-wrapper">
         <video
+          ref={videoRef}
           className="promo-video"
           src={promoVideo}
-          controls
-          
+          autoPlay
+          muted={muted}
+          loop
           playsInline
-          preload="metadata"
+          preload="auto"
         />
+        <button className="mute-toggle" onClick={toggleMute}>
+          {muted ? "🔇" : "🔊"}
+        </button>
       </div>
     </div>
   );
