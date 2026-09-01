@@ -1,5 +1,5 @@
 import "./Promo.css";
-import promoVideo from "../assets/IMG_5263.MP4";
+import promoVideo from "../assets/codebyemma.mp4";
 
 
 const Promo = () => {
