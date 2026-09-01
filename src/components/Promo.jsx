@@ -5,11 +5,24 @@ import promoVideo from "../assets/codebyemma.mp4";
 const Promo = () => {
   const videoRef = useRef(null);
   const [muted, setMuted] = useState(true);
+  const [playing, setPlaying] = useState(true);
 
   const toggleMute = () => {
     if (videoRef.current) {
       videoRef.current.muted = !videoRef.current.muted;
       setMuted(videoRef.current.muted);
+    }
+  };
+
+  const togglePlay = () => {
+    if (videoRef.current) {
+      if (videoRef.current.paused) {
+        videoRef.current.play();
+        setPlaying(true);
+      } else {
+        videoRef.current.pause();
+        setPlaying(false);
+      }
     }
   };
 
@@ -34,10 +47,17 @@ const Promo = () => {
           loop
           playsInline
           preload="auto"
+          onClick={togglePlay}
         />
-        <button className="mute-toggle" onClick={toggleMute}>
-          {muted ? "🔇" : "🔊"}
-        </button>
+
+        <div className="video-controls">
+          <button className="control-btn" onClick={togglePlay}>
+            {playing ? "⏸️" : "▶️"}
+          </button>
+          <button className="control-btn" onClick={toggleMute}>
+            {muted ? "🔇" : "🔊"}
+          </button>
+        </div>
       </div>
     </div>
   );
